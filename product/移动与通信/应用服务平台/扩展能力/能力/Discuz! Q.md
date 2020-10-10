@@ -62,7 +62,11 @@ discuz!Q 将会占用根路径，如果当前环境被占用，推荐再创建�
 
 ### CynosDB 被隔离
 
-错误信息 `queryClusterDetail failed, err=DescribeClusters invalid response.detail.status[isolated]`，代表 CynosDB 集群被隔离，请前往回收站将该集群恢复或者直接删除。
+错误信息 `queryClusterDetail failed, err=DescribeClusters invalid response.detail.status[isolated]`，代表 CynosDB 集群被隔离，请前往[回收站](https://console.cloud.tencent.com/cynosdb/recycle)将该集群恢复或者直接删除。
+
+### 共享文件存储 CFS 资源售罄
+
+错误信息：”参数值错误：该地域无法提供服务“，代表 共享文件存储 CFS 该地域可用区售罄。我们将及时补货，请耐心等待。
 
 ## 常见问题
 
